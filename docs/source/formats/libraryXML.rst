@@ -1,18 +1,10 @@
 Color library XML
-=======================
+=================
 
 .. note::
 	This file format is used by the first iteration of the Color converter and library.
 
 The format is a simple .xml file, containing a strict data structure.
-
-.. code-block::
-	:caption: Overall XML structure
-	
-	{
-		version defintion;
-		RootNode;
-	}
 	
 Root
 ----
@@ -28,8 +20,8 @@ Optional children:
  * categories: category nodes
 
 .. code-block:: xml
-	:caption: Root node
 	
+	<?xml ... xml header ... ?>
 	<color>
 		...
 	</color>
@@ -49,7 +41,6 @@ Optional children:
  * colors: color nodes
 
 .. code-block:: xml
-	:caption: Category node
 	
 	<category>
 		<name>Category 1</name>
@@ -65,9 +56,11 @@ Required children:
 
 * name:		name of the color item
 * format:	color format
+
 	* 1: 		sRGB 8-bit
 	* 2: 		sRGB
 	* 3: 		linear RGB
+	
 * R: 		red value
 * G: 		green value
 * B:		blue value
@@ -77,7 +70,6 @@ Optional children:
 * None
 
 .. code-block:: xml
-	:caption: Color node
 	
 	<color>
 		<name>Color 1</name>
@@ -91,7 +83,7 @@ Full example
 ------------
 
 .. code-block:: xml
-	:caption: XML library example
+	:name: colorlibraryXML-example
 	
 	<?xml version="1.0" encoding="utf-8"?>
 	<color>

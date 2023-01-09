@@ -5,7 +5,7 @@ The Color library and converter is the fourth iteration of the color converter t
 It is written in Visual Basic .Net Framework. It integrates the converter part of the original iteration
 with a structured color library which allows for categories as well, and a color picker window.
 
-The color library is stored in proprietary .colorlib file which is easier to manage programatically, validate for integrity.
+The color library is stored in a special .colorlib file which is easier to manage programatically, validate for integrity.
 
 Features
 --------

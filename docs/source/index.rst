@@ -15,7 +15,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
-   :glop:
+   :glob:
    :caption: Python
 
    python/*

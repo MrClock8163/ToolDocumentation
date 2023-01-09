@@ -19,6 +19,6 @@ The different versions and tools are grouped by the environment they were writte
 
 These include:
 
-* Python 3.6 with appJar UI library
+* Python 3.8 with appJar UI library
 * Visual Basic .Net 5.0 with Windows Forms UI
 * Visual Bsaic .Net Framework 4.8 with WPF UI

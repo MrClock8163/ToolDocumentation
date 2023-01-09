@@ -1,6 +1,9 @@
 Color converter
 ===============
 
+.. warning::
+	This tool is no longer maintained.
+
 Many modders use Substance Painter coupled with other image editiong programs for texturing 3D models.
 Issues arise however when one tries transfer the color values betwwen them.
 While Photoshop for example uses sRGB colors in 8-bit representation (values: 0-255), and the procedural texture macros of Arma 3 also use sRGB but in floating point format

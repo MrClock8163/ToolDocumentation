@@ -6,7 +6,7 @@ About the tools
 
 The tools listed here are made to assist in mod development for the Arma 3 game of Bohemia Interactive.
 
-They were written mainly for personal comfort and serve niche purposes, but they are made public for use of anyone who finds them useful
+They were written mainly for personal comfort and serve niche purposes, but they are made public for use of anyone who finds them useful.
 
 .. warning::
     The tools are not widely tested on computers, they may not run correctly on any machine. Use them at your own risk, and report any issues you encounter.

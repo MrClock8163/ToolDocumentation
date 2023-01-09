@@ -25,8 +25,8 @@ The tool can convert just a single color value, or a an RGB triplet with the val
 Environment
 -----------
 
-Logic:  Python 3.8
-GUI:    appJar library
+* Logic:  Python 3.8
+* GUI:    appJar library
 
 Requirements
 ------------

@@ -1,5 +1,5 @@
 Welcome to MrClock's tool documentations!
-===================================
+=========================================
 
 This site provides help and documentation for the tools made by me.
 

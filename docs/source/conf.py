@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'MrClock''s modding tools'
+copyright = '2023, MrClock'
+author = 'MrClock'
 
 release = '0.1'
 version = '0.1.0'

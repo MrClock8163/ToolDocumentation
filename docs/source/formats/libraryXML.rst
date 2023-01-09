@@ -9,7 +9,7 @@ The format is a simple .xml file, containing a strict data structure.
 Root
 ----
 
-The root node of the xml structure is a single node with no attributes, called `color`. This node contains the categories as a list of children nodes.
+The root node of the xml structure is a single node with no attributes, called :code:`color`. This node contains the categories as a list of children nodes.
 
 Required children:
 
@@ -29,7 +29,7 @@ Optional children:
 Category
 --------
 
-A category is defined by a node called `category`. It has a required child node called `name` which holds the name of the category.
+A category is defined by a node called :code:`category`. It has a required child node called :code:`name` which holds the name of the category.
 The colors in the category are held in a list of children nodes.
 
 Required children:
@@ -50,7 +50,7 @@ Optional children:
 Color item
 ----------
 
-A color is defined by a node called `color`.
+A color is defined by a node called :code:`color`.
 
 Required children:
 

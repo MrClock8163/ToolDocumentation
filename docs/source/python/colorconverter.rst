@@ -22,6 +22,12 @@ Convert just one value or an RGB triplet
 
 The tool can convert just a single color value, or a an RGB triplet with the values separated by commas.
 
+Environment
+-----------
+
+Logic:  Python 3.8
+GUI:    appJar library
+
 Requirements
 ------------
 

@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'MrClock''s modding tools'
+project = "MrClock's modding tools"
 copyright = '2023, MrClock'
 author = 'MrClock'
 

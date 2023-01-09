@@ -34,3 +34,10 @@ Contents
    :caption: Visual Basic .Net Framework
 
    vbnetframework/*
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :caption: File formats
+
+   formats/*

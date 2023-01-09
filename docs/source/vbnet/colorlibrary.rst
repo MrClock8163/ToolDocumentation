@@ -10,6 +10,8 @@ with a structured color library which allows for categories as well, and a color
 The color library is stored in XML files with specific formatting:
 
 .. code-block:: xml
+	:caption: XML library example
+	:name: libraryXML-example-short
 
 	<?xml version="1.0" encoding="utf-8"?>
 	<color>
@@ -32,7 +34,7 @@ The color library is stored in XML files with specific formatting:
 Features
 --------
 
-*Convert between color formats
+* Convert between color formats
 
 	* sRGB 8-bit
 	* sRGB

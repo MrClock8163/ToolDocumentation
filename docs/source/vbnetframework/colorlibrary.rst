@@ -16,7 +16,7 @@ Features
 	* sRGB
 	* linear RGB
 	
-* Save and load colors from formatted .xml file
+* Save and load colors from .colorlib file
 
 * Pick color from loaded or copy-pasted images
 

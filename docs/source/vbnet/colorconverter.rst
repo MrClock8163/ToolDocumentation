@@ -9,7 +9,7 @@ Color converter is a rewrite of the original Color converter written in Python. 
 Features
 --------
 
-*Convert between color formats
+* Convert between color formats
 
 	* sRGB 8-bit
 	* sRGB

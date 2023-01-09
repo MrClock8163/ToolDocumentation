@@ -13,15 +13,13 @@ To allow for quick conversion between these values, the Color converter was writ
 Features
 --------
 
-Convert between color formats
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* Convert between color formats
 
-* sRGB 8-bit
-* sRGB
-* linear RGB
+	* sRGB 8-bit
+	* sRGB
+	* linear RGB
 
-Convert just one value or an RGB triplet
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* Convert just one value or an RGB triplet
 
 The tool can convert just a single color value, or a an RGB triplet with the values separated by commas.
 

@@ -10,7 +10,7 @@ The color library is stored in proprietary .colorlib file which is easier to man
 Features
 --------
 
-*Convert between color formats
+* Convert between color formats
 
 	* sRGB 8-bit
 	* sRGB

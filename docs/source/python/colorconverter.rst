@@ -1,4 +1,4 @@
-Color converter 1.0
+Color converter v1
 ===============
 
 Many modders use Substance Painter coupled with other image editiong programs for texturing 3D models.

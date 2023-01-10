@@ -31,6 +31,6 @@ sphinx:
 formats: all
 
 sphinx:
-  builder: dirhtml
+  builder: singlehtml
   configuration: conf.py
   fail_on_warning: true

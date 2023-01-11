@@ -31,5 +31,5 @@ nav:
         - 'formats/libraryTXT.md'
         - 'formats/libraryXML.md'
         - 'formats/colorlib.md'
-extra_css:
-    - 'styles.css'
+# extra_css:
+    # - 'styles.css'

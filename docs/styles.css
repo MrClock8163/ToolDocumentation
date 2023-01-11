@@ -1,5 +1,5 @@
 body {
-	color: #c8c8c8
+	color: red
 	
 }
 a code {
@@ -34,7 +34,7 @@ hr {
 .wy-nav-content {
     margin: 0;
     background: #2d2d30;
-	max-width: 800px;
+	max-width: 1000px;
 }
 
 .wy-nav-top {

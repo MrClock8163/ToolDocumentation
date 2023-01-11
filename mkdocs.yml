@@ -2,7 +2,7 @@ site_name: MrClock's tool documentations
 theme:
   name: readthedocs
   highlightjs: true
-  logo: img/logo.png
+  logo: img/logoNew.png
 plugins:
   - search
   - mkdocstrings:

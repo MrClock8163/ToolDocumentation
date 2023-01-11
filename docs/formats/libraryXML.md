@@ -16,7 +16,7 @@ Required children:
  
 Optional children:
 
- * categories: category nodes
+ * categories: `category` nodes
 
 ``` xml
 <?xml ... xml header ... ?>
@@ -32,11 +32,11 @@ The colors in the category are held in a list of children nodes.
 
 Required children:
 
- * name: name of the category
+ * `name`: name of the category
  
 Optional children:
 
- * colors: color nodes
+ * colors: `color` nodes
 
 ``` xml
 <category>
@@ -51,16 +51,16 @@ A color is defined by a node called `color`.
 
 Required children:
 
-* name:		name of the color item
-* format:	color format
+* `name`:		name of the color item
+* `format`:	color format
 
 	* 1: 		sRGB 8-bit
 	* 2: 		sRGB
 	* 3: 		linear RGB
 	
-* R: 		red value
-* G: 		green value
-* B:		blue value
+* `R`: 		red value
+* `G`: 		green value
+* `B`:		blue value
 
 Optional children:
 

@@ -6,12 +6,16 @@
 	
 !!! note
 	
-	This page is about the **Visual Basic .Net** version of the tool. If you want to read about the Visual Basic .Net Framework based iteration, head over to the [Color converter (VB.Net Framework)](../vbnetframework/colorlibrary.md) page.
+	This page is about the **Visual Basic .Net** version of the tool. If you want to read about the more up-to-date Visual Basic .Net Framework based iteration, head over to the [Color converter (VB.Net Framework)](../vbnetframework/colorlibrary.md) page.
 
 The Color library and converter is the third iteration of the color converter tool. It is written in Visual Basic .Net. It integrates the converter part of the previous iteration
-with a structured color library which allows for categories as well, and a color picker window.
+with a structured color library, which allows for categories as well, and a color picker window.
 
-The color library is stored in XML files with specific formatting:
+![](img/image_2_1.png)
+
+The color picker area accepts existing images by drag-and-drop and opening through file explorer, as well as pasted images from the clipboard.
+
+The color library is stored in [XML files](../formats/libraryXML.md) with specific formatting:
 
 ``` xml
 <?xml version="1.0" encoding="utf-8"?>

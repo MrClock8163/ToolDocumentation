@@ -66,10 +66,6 @@ a {
     color: #d9d9d9;
 }
 
-div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(4) {
-    display: none;
-}
-
 .wy-menu-vertical a:hover {
     background-color: #3f3f46;
     cursor: pointer;
@@ -83,12 +79,9 @@ div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(4) {
 
 .wy-nav-content-wrap {
 	background: #252526
-	
 }
 
-.wy-nav-side {
-	background: #252526
-}
+/* Admonitions */
 
 .rst-content .admonition {
 	color: #141414;
@@ -98,6 +91,8 @@ div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(4) {
 .rst-content .admonition-title {
 	border-radius: 5px 5px 0px 0px;
 }
+
+/* Code blocks */
 
 .rst-content pre code {
     color: #c8c8c8;
@@ -117,10 +112,22 @@ div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(4) {
     font-weight: 400;
 }
 
+.hljs-keyword, .hljs-selector-tag, .hljs-subst {
+    color: #ca5211;
+    font-weight: 700;
+}
+
+/* Side navigation */
+
+.wy-nav-side {
+	background: #252526
+}
+
 .wy-menu-vertical li.current {
     background: #1a1a1a;
 	color: red;
 }
+
 .wy-menu-vertical li.current>a button.toctree-expand, .wy-menu-vertical li.on a button.toctree-expand {
     display: block;
     line-height: 18px;
@@ -153,4 +160,8 @@ div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(4) {
 
 .wy-menu-vertical li.current a:hover {
     background: #3f3f46;
+}
+
+div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(3) {
+    display: none;
 }

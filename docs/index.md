@@ -1,17 +1,29 @@
-# Welcome to MkDocs
+# Welcome MrClock's tool documentations
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This site provides help and documentation for the tools made by me.
 
-## Commands
+!!! note
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+    This documentation is in active development.
 
-## Project layout
+### About the tools
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The tools listed here are made to assist in mod development for the Arma 3 game of Bohemia Interactive.
+
+They were written mainly for personal comfort and serve niche purposes, but they are made public for use of anyone who finds them useful.
+
+!!! warning
+
+    The tools are not widely tested on computers, they may not run correctly on any machine. Use them at your own discretion, and report any issues you encounter.
+
+### Download
+
+The programs can be downloaded from the [Google Drive ](https://drive.google.com/open?id=1P9WmoGLcbxL0iQok9j2K-zIBmDWNNJPD) folder of the Just Like The Simulations mod projects.
+The different versions and tools are grouped by the environment they were written in.
+
+These include:
+
+* Python 3.8 with appJar UI library
+* Visual Basic .Net 5.0 with Windows Forms UI
+* Visual Bsaic .Net Framework 4.8 with WPF UI
+

@@ -14,3 +14,19 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
+  - toc:
+      permalink: true
+      baselevel: 1
+nav:
+    - Home: 'index.md'
+    - Python:
+        - 'python/colorconverter.md'
+    - Visual Basic .Net:
+        - 'vbnet/colorconverter.md'
+        - 'vbnet/colorlibrary.md'
+    - Visual Basic .Net Framework:
+        - 'vbnetframework/colorlibrary.md'
+    - Formats:
+        - 'formats/libraryTXT.md'
+        - 'formats/libraryXML.md'
+        - 'formats/colorlib.md'

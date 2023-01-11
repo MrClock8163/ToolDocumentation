@@ -1,5 +1,4 @@
-Color library and converter
-===========================
+# Color library and converter
 
 The Color library and converter is the fourth iteration of the color converter tool, and the second iteration of the integrated color library.
 It is written in Visual Basic .Net Framework. It integrates the converter part of the original iteration
@@ -7,8 +6,7 @@ with a structured color library which allows for categories as well, and a color
 
 The color library is stored in a special .colorlib file which is easier to manage programatically, validate for integrity.
 
-Features
---------
+## Features
 
 * Convert between color formats
 
@@ -22,13 +20,11 @@ Features
 
 * Supports light and dark theme
 
-Environment
------------
+## Environment
 
 * Logic:  Visual Basic .Net Framework 4.8
 * GUI:    Windows Presentation Foundation
 
-Requirements
-------------
+## Requirements
 
 * .NET Framework 4.8

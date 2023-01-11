@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Color library XML - MrClock's tool documentations</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Color library XML";
+        var mkdocs_page_input_path = "formats\\libraryXML.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> MrClock's tool documentations
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Python</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../python/colorconverter/">Color converter</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Visual Basic .Net</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vbnet/colorconverter/">Color converter</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vbnet/colorlibrary/">Color library and converter</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Visual Basic .Net Framework</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vbnetframework/colorlibrary/">Color library and converter</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Formats</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../libraryTXT/">Color library TXT</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Color library XML</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#root">Root</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#category">Category</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#color-item">Color item</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#full-example">Full example</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../colorlib/">COLORLIB file</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">MrClock's tool documentations</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Formats &raquo;</li>
+      <li>Color library XML</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="color-library-xml">Color library XML<a class="headerlink" href="#color-library-xml" title="Permanent link">&para;</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This file format is used by the first iteration of the <a href="../../vbnet/colorlibrary/">Color converter and library</a>.</p>
+</div>
+<p>The format is a simple .xml file, containing a strict data structure.</p>
+<h2 id="root">Root<a class="headerlink" href="#root" title="Permanent link">&para;</a></h2>
+<p>The root node of the xml structure is a single node with no attributes, called <code>color</code>. This node contains the categories as a list of child nodes.</p>
+<p>Required children:</p>
+<ul>
+<li>None</li>
+</ul>
+<p>Optional children:</p>
+<ul>
+<li>categories: category nodes</li>
+</ul>
+<pre><code class="language-xml">&lt;?xml ... xml header ... ?&gt;
+&lt;color&gt;
+    ...
+&lt;/color&gt;
+</code></pre>
+<h2 id="category">Category<a class="headerlink" href="#category" title="Permanent link">&para;</a></h2>
+<p>A category is defined by a node called <code>category</code>. It has a required child node called <code>name</code> which holds the name of the category.
+The colors in the category are held in a list of children nodes.</p>
+<p>Required children:</p>
+<ul>
+<li>name: name of the category</li>
+</ul>
+<p>Optional children:</p>
+<ul>
+<li>colors: color nodes</li>
+</ul>
+<pre><code class="language-xml">&lt;category&gt;
+    &lt;name&gt;Category 1&lt;/name&gt;
+    ...
+&lt;/category&gt;
+</code></pre>
+<h2 id="color-item">Color item<a class="headerlink" href="#color-item" title="Permanent link">&para;</a></h2>
+<p>A color is defined by a node called <code>color</code>.</p>
+<p>Required children:</p>
+<ul>
+<li>name:     name of the color item</li>
+<li>
+<p>format:   color format</p>
+<ul>
+<li>1:        sRGB 8-bit</li>
+<li>2:        sRGB</li>
+<li>3:        linear RGB</li>
+</ul>
+</li>
+<li>
+<p>R:        red value</p>
+</li>
+<li>G:        green value</li>
+<li>B:        blue value</li>
+</ul>
+<p>Optional children:</p>
+<ul>
+<li>None</li>
+</ul>
+<pre><code class="language-xml">&lt;color&gt;
+    &lt;name&gt;Color 1&lt;/name&gt;
+    &lt;format&gt;1&lt;/format&gt;
+    &lt;R&gt;255&lt;/R&gt;
+    &lt;G&gt;255&lt;/G&gt;
+    &lt;B&gt;255&lt;/B&gt;
+&lt;/color&gt;
+</code></pre>
+<h2 id="full-example">Full example<a class="headerlink" href="#full-example" title="Permanent link">&para;</a></h2>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;color&gt;
+  &lt;category&gt;
+    &lt;name&gt;Category 1&lt;/name&gt;
+    &lt;color&gt;
+      &lt;name&gt;Color 1&lt;/name&gt;
+      &lt;format&gt;3&lt;/format&gt;
+      &lt;R&gt;0.353&lt;/R&gt;
+      &lt;G&gt;0.101&lt;/G&gt;
+      &lt;B&gt;0&lt;/B&gt;
+    &lt;/color&gt;
+    &lt;color&gt;
+      &lt;name&gt;Color 2&lt;/name&gt;
+      &lt;format&gt;3&lt;/format&gt;
+      &lt;R&gt;0.353&lt;/R&gt;
+      &lt;G&gt;0.216&lt;/G&gt;
+      &lt;B&gt;0.002&lt;/B&gt;
+    &lt;/color&gt;
+  &lt;/category&gt;
+  &lt;category&gt;
+    &lt;name&gt;Category 2&lt;/name&gt;
+    &lt;color&gt;
+      &lt;name&gt;Color1&lt;/name&gt;
+      &lt;format&gt;3&lt;/format&gt;
+      &lt;R&gt;0.049&lt;/R&gt;
+      &lt;G&gt;0.03&lt;/G&gt;
+      &lt;B&gt;0&lt;/B&gt;
+    &lt;/color&gt;
+  &lt;/category&gt;
+&lt;/color&gt;
+</code></pre>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../libraryTXT/" class="btn btn-neutral float-left" title="Color library TXT"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../colorlib/" class="btn btn-neutral float-right" title="COLORLIB file">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../libraryTXT/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../colorlib/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

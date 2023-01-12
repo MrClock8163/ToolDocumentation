@@ -1,6 +1,4 @@
-# Welcome MrClock's tool documentations
-
-This site provides help and documentation for the tools made by me.
+# Welcome MrClock's documentations
 
 !!! note
 

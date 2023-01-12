@@ -8,6 +8,10 @@ The .colorlib file is a special binary file format designed for the color librar
 
 ## File specification
 
+### Extension
+
+`.colorlib`
+
 ### Byte order
 
 * Little-endian

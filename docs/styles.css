@@ -92,6 +92,13 @@ a {
 	border-radius: 5px 5px 0px 0px;
 }
 
+.rst-content .admonition code {
+    color: #E74C3C;
+    border: none;
+	border-radius: 2px;
+	background: rgba(200, 200, 200, 0.7);
+}
+
 /* Code blocks */
 
 .rst-content pre code {
@@ -164,4 +171,8 @@ a {
 
 div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(3) {
     display: none;
+}
+
+.wy-menu-vertical li.toctree-l3.current>a, .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a {
+    background: #3f3f46;
 }

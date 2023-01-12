@@ -25,9 +25,11 @@ nav:
     - Visual Basic .Net:
         - 'vbnet/colorconverter.md'
         - 'vbnet/colorlibrary.md'
+        - 'vbnet/classextractor.md'
     - Visual Basic .Net Framework:
         - 'vbnetframework/colorlibrary.md'
-    - Formats:
+        - 'vbnetframework/classextractor.md'
+    - File formats:
         - 'formats/libraryTXT.md'
         - 'formats/libraryXML.md'
         - 'formats/colorlib.md'

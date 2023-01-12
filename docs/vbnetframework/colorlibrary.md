@@ -4,6 +4,11 @@
 	
 	This page is about the latest **Visual Basic .Net Framework** version of the tool. If you want to read about thee Visual Basic .Net based iteration, head over to the [Color converter (VB.Net)](../vbnet/colorlibrary.md) page.
 
+!!! note
+
+	This tool is not yet finished, details may change in the future.
+
+
 ## Features
 
 * Convert between color formats

@@ -4,11 +4,15 @@
 
     This documentation is in active development.
 
+!!! note
+
+	Not all iterations of the same tool concept may be available for download.
+
 ### About the tools
 
 The tools listed here are made to assist in mod development for the Arma 3 game of Bohemia Interactive.
 
-These programs were written mainly for personal comfort and serve niche purposes, but some of them are made public for use of anyone who finds them useful.
+These programs were written mainly for personal comfort and serve niche purposes, but they are made public for use of anyone who finds them useful.
 
 !!! warning
 
@@ -16,8 +20,8 @@ These programs were written mainly for personal comfort and serve niche purposes
 
 ### Download
 
-The tools can be downloaded from the [Google Drive ](https://drive.google.com/open?id=1P9WmoGLcbxL0iQok9j2K-zIBmDWNNJPD) folder of the Just Like The Simulations mod projects.
-The different versions and tools are grouped by the environment they were written in.
+The tools can be downloaded from the [GitHub](https://github.com/MrClock8163/ToolsArchive) tools archive.
+The different versions of tools are grouped by the environment they were written in.
 
 These include:
 

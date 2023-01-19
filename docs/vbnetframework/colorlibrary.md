@@ -51,6 +51,8 @@ Color cards can be generated from colors saved in the current library. The main 
 
 The name of the color format in which the color is saved in the library is always underlined. This is to indicate which format is the most precise (while conversion is precise, ±0.001 deviation can sometimes be observed in the converted values due to rounding).
 
+The card can be either saved to a file (300 x 300 pixels, rounded corners), or copied to the system clipboard (300 x 300 pixels, straight corners).
+
 ## Preferences
 
 ![Preferences window](img/image_3_2.png)

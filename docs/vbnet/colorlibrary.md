@@ -18,6 +18,8 @@
 	
 * Save and load colors from formatted .xml file
 
+* Generate color sample cards
+
 * Pick color from loaded or copy-pasted images
 
 The Color library and converter is the third iteration of the color converter tool. It is written in Visual Basic .Net. It integrates the converter part of the previous iteration
@@ -26,6 +28,9 @@ with a structured color library, which allows for categories as well, and a colo
 ### Conversion
 
 ![](img/image_2_1.png)
+
+Before conversion, the value to be converted, and the format of the input value has to be set. If the input value in one of the RGB fields is invalid for the selected input format, the result fields are displayed empty after conversion.
+If all 3 RGB values could be successfully converted, a color sample is displayed at the bottom of the window.
 
 ### Pick a color
 
@@ -53,6 +58,27 @@ The color library is stored in [XML files](../formats/libraryXML.md) with specif
   </category>
 </color>
 ```
+
+### Color cards
+
+Color cards can be generated from colors saved in the current library. The main body of the card is of the selected color, and the annotation block contains the name and color codes.
+
+![](img/image_2_2.png)
+
+The name of the color format in which the color is saved in the library is always underlined. This is to indicate which format is the most precise (while conversion is precise, ±0.001 deviation can sometimes be observed in the converted values due to rounding).
+
+**Options:**
+
+* **Annotation:**
+	* **Name:**
+		* **Library name:** include the library name of the color
+		* **Custom name:** ask for custom name
+	* **Color codes:**
+		* **Source format:** include only the source format values
+		* **All formats:** include all converted values
+* **Export target:**
+	* **To file:** save color card to file in PNG format (300 x 300 pixels, rounded corners)
+	* **To clipboard:** copy color card to system clipboard (300 x 300 pixels, straight corners)
 
 ## Environment
 

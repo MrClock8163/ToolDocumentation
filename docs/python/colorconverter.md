@@ -24,7 +24,7 @@ While Photoshop for example uses sRGB colors in 8-bit representation (values: 0-
 (values: 0.0-1.0), Substance Painter uses a different color format.
 To allow for quick conversion between these values, the **Color converter** was written.
 
-![](img/image_1.png)
+![Python based color converter GUI](img/image_1.png)
 
 ## Environment
 

@@ -27,7 +27,7 @@ with a structured color library, which allows for categories as well, and a colo
 
 ### Conversion
 
-![](img/image_2_1.png)
+![VB.Net based color library GUI](img/image_2_1.png)
 
 Before conversion, the value to be converted, and the format of the input value has to be set. If the input value in one of the RGB fields is invalid for the selected input format, the result fields are displayed empty after conversion.
 If all 3 RGB values could be successfully converted, a color sample is displayed at the bottom of the window.
@@ -63,7 +63,7 @@ The color library is stored in [XML files](../formats/libraryXML.md) with specif
 
 Color cards can be generated from colors saved in the current library. The main body of the card is of the selected color, and the annotation block contains the name and color codes.
 
-![](img/image_2_2.png)
+![Color sample card](img/image_2_2.png)
 
 The name of the color format in which the color is saved in the library is always underlined. This is to indicate which format is the most precise (while conversion is precise, ±0.001 deviation can sometimes be observed in the converted values due to rounding).
 

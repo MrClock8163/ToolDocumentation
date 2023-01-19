@@ -18,7 +18,7 @@ This task is not complex, but it becomes rather tedious when a mod has hundreds 
 
 More info can be found on the  [Bohemia Interactive community wiki](https://community.bistudio.com/wiki/Eden_Editor:_Configuring_Asset_Previews).
 
-![](img/image_4_1.png)
+![VB.Net based editor preview processor GUI](img/image_4_1.png)
 
 The program iterates through the PNG files in the specified input directory, resizes them, and saves them as JPG in the output directory with the same file name.
 

@@ -26,13 +26,13 @@ This Color converter is a rewrite of the original Color converter written in Pyt
 
 Improvements for this version include a UI that is easier to navigate, a color panel that allows to preview the converted color, and displays the HEX color code.
 
-![](img/image_1_1.png)
+![VB.Net based color converter GUI](img/image_1_1.png)
 
 ### Save colors
 
 This version also makes it possible to save colors to a [formatted plain text file](../formats/libraryTXT.md), and load them back in when needed.
 
-![](img/image_1_2.png)
+![Load color window](img/image_1_2.png)
 
 ## Environment
 

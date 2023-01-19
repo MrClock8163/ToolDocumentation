@@ -23,7 +23,7 @@ The class list extractor allows to read an Arma 3 config.cpp file, and extract t
 	The original purpose of the tool is to make it easy to gather the lists of class names needed for the `units` and `weapons` array of the `CfgPatches` class in a config.
 	When a config is long enough, this task is rather long and tedious to do manually all the time.
 
-![](img/image_3_1.png)
+![VB.Net based class list extractor GUI](img/image_3_1.png)
 
 The reading of the config.cpp is `regex` based and relies on the **CfgConvert.exe** of the **Arma 3 Tools** on steam to standardize the formatting of the file.
 The program reads the entire file line by line, and converts it into an internal class structure, then extracts the names of classes contained in the selected base class.
@@ -45,7 +45,7 @@ The extracted names are displayed in the includable list format.
 
 After the extraction, it is possible to change the formatting of the output, and save it to a file, or copy it to the clipboard. The **Format and export** window can be accessed from the context menu of the output field.
 
-![](img/image_3_2.png)
+![Format and export window](img/image_3_2.png)
 
 #### Format options
 

@@ -24,7 +24,7 @@ The class list extractor allows to read an Arma 3 config file, and extract the l
 	
 	This version however evolved into a more general solution.
 
-![](img/image_1_1.png)
+![VB.Net Framework based class list extractor GUI](img/image_1_1.png)
 
 !!! tip
 	
@@ -54,7 +54,7 @@ After selecting a class in the hierarchy, the names of the contained sub-classes
 
 Just like in the original version, after the extraction, it is possible to change the formatting of the output, and save it to a file, or copy it to the clipboard. The **Format and export** window can be accessed from the context menu of the output field.
 
-![](img/image_1_2.png)
+![Format and export window](img/image_1_2.png)
 
 #### Format options
 

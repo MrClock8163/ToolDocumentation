@@ -13,7 +13,7 @@ This is the second iteration of the Editor preview processor. The program automa
 
 More info can be found on the  [Bohemia Interactive community wiki](https://community.bistudio.com/wiki/Eden_Editor:_Configuring_Asset_Previews).
 
-![](img/image_2_1.png)
+![VB.Net Framework based editor preview processor GUI](img/image_2_1.png)
 
 The program iterates through the PNG files in the specified input directory, resizes them, and saves them as JPG in the output directory with the same file name.
 

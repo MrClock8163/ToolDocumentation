@@ -26,7 +26,7 @@ with a structured color library which allows for categories as well, and a color
 
 ### Conversion
 
-![](img/image_3_1.png)
+![VB.Net Framework based color library GUI](img/image_3_1.png)
 
 Before conversion, the value to be converted, and the format of the input value has to be set. If the input value in one of the RGB fields is invalid for the selected input format, the result fields are displayed empty after conversion (visual feedback is also given while the input is typed into the fields).
 If all 3 RGB values could be successfully converted, a color sample is displayed at the bottom of the window, and the sRGB hexadecimal code is also shown (the feature was brought back from the second color converter iteration).
@@ -47,13 +47,13 @@ Next to every category, the number of contained colors is displayed, while next 
 
 Color cards can be generated from colors saved in the current library. The main body of the card is of the selected color, and the annotation block contains the name and color codes.
 
-![](img/image_3_3.png)
+![Color sample card](img/image_3_3.png)
 
 The name of the color format in which the color is saved in the library is always underlined. This is to indicate which format is the most precise (while conversion is precise, ±0.001 deviation can sometimes be observed in the converted values due to rounding).
 
 ## Preferences
 
-![](img/image_3_2.png)
+![Preferences window](img/image_3_2.png)
 
 ### Save after every change
 

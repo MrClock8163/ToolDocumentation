@@ -34,6 +34,7 @@ nav:
         - 'vbnetframework/colorlibrary.md'
         - 'vbnetframework/classextractor.md'
         - 'vbnetframework/editorpreviewprocessor.md'
+        - 'vbnetframework/genericgenerator.md'
     - File formats:
         - 'formats/libraryTXT.md'
         - 'formats/libraryXML.md'

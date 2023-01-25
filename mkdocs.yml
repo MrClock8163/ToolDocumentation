@@ -35,6 +35,7 @@ nav:
         - 'vbnetframework/classextractor.md'
         - 'vbnetframework/editorpreviewprocessor.md'
         - 'vbnetframework/genericgenerator.md'
+        - 'vbnetframework/textureconverter.md'
     - File formats:
         - 'formats/libraryTXT.md'
         - 'formats/libraryXML.md'

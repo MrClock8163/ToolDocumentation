@@ -72,7 +72,7 @@ The name of the color format in which the color is saved in the library is alway
 * **Annotation:**
 	* **Name:**
 		* **Library name:** include the library name of the color
-		* **Custom name:** ask for custom name
+		* **Custom name:** prompt for a custom name
 	* **Color codes:**
 		* **Source format:** include only the source format values
 		* **All formats:** include all converted values

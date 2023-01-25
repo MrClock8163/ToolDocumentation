@@ -7,7 +7,7 @@
 ## Features
 
 * Automate resizing the editor preview images exported from game
-* Supports light and dark theme
+* Light and dark color theme
 
 This is the second iteration of the Editor preview processor. The program automates the resizing and saving of the images in JPG format.
 

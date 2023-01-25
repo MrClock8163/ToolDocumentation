@@ -4,6 +4,7 @@
 
 * Generate randomized ID number like strings from patterns
 * Save output for inclusion in config
+* Light and dark color theme
 
 In Arma 3, the NPCs have randomized names. These names are drawn from the `GenericName` class specified in the config of the particular NPC.
 The base config of the game contains a great assortment of human names which are more than enough for most cases. But what if a mod wanted to have ID numbers as names for the AI?

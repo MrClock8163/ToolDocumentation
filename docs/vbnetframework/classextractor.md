@@ -11,7 +11,7 @@
 * Display entire class structure of the config
 * Extract the list of embedded classes from any class
 * Format the output
-* Dark and light color theme
+* Light and dark color theme
 
 ### Open and extract
 

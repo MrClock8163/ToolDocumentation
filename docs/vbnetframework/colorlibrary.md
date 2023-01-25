@@ -13,12 +13,9 @@
 	* linear RGB
 	
 * Save and load colors from color library file
-
 * Generate color sample cards
-
 * Pick color from loaded or copy-pasted images
-
-* Supports light and dark theme
+* Light and dark color theme
 
 The Color library and converter is the fourth iteration of the color converter tool, and the second iteration of the integrated color library.
 It is written in Visual Basic .Net Framework. It integrates the converter part of the original iteration
@@ -42,6 +39,15 @@ The color library is stored in a special [COLORLIB file](../formats/colorlib.md)
 Colors are stored in categories. All items in the hierarchy are displayed in alphabetical order (even if they are not like so in the actual library file).
 
 Next to every category, the number of contained colors is displayed, while next to every color, the saved format is indicated (`S8`: sRGB 8-bit, `S`: sRGB, `L`: linear RGB).
+
+### Import XML libraries
+
+This feature serves backwards compatibility with the [XML based library file](../formats/libraryXML.md) of the previous version of the application.
+
+!!! note
+
+	Imported XML libraries are temporary libraries in memory. They cannot be saved back to the source file, or be reloaded.
+	It is advised that XML libraries are **Saved As** the new file format after import.
 
 ### Color cards
 
@@ -69,7 +75,7 @@ If this setting is enabled, the library is saved (if possible) after every chang
 
 * **Color name:**
 	* **Library name:** include the library name of the color
-	* **Custom name:** ask for custom name
+	* **Custom name:** prompt for a custom name
 * **Formats:**
 	* **Only source format:** include only the source format values
 	* **All formats:** include all converted values

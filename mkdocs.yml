@@ -24,6 +24,7 @@ nav:
     - Home: 'index.md'
     - Python:
         - 'python/colorconverter.md'
+        - 'python/modelcfgeditor.md'
     - Visual Basic .Net:
         - 'vbnet/colorconverter.md'
         - 'vbnet/colorlibrary.md'

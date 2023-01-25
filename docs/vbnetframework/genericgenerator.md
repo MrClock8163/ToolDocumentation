@@ -10,7 +10,7 @@ In Arma 3, the NPCs have randomized names. These names are drawn from the `Gener
 The base config of the game contains a great assortment of human names which are more than enough for most cases. But what if a mod wanted to have ID numbers as names for the AI?
 Typing out 50-100 random "first names" and "last names" manually can be very tedious.
 
-!!! info
+!!! note "Info"
 
 	The generic name classes are defined in the `CfgWorlds >> GenericNames` class.
 

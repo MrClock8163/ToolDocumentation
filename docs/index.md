@@ -2,7 +2,7 @@
 
 !!! Notice
 
-    This documentation is in active development.
+	This documentation is in active development.
 
 ## About the author
 
@@ -28,7 +28,7 @@ The tools are not general solutions like the [Arma 3 Tools](https://store.steamp
 
 !!! danger "Warning"
 
-    The tools are not widely tested on computers, they may not run correctly on any machine. Use them at your own discretion, and report any issues you encounter in those that are still maintained.
+	The tools are not widely tested on computers, they may not run correctly on any machine. Use them at your own discretion, and report any issues you encounter in those that are still maintained.
 
 ## Download
 
@@ -43,4 +43,4 @@ These include:
 
 * Python 3.8 with appJar UI library
 * Visual Basic .Net 5.0 with Windows Forms UI
-* Visual Bsaic .Net Framework 4.8 with WPF UI
+* Visual Basic .Net Framework 4.8 with WPF UI

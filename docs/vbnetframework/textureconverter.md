@@ -85,3 +85,11 @@ After the conversion, the successful files are displayed in green.
 
 * .NET Framework 4.8
 * [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/)
+
+## Changelogs
+
+??? changelog "v1.2.1"
+
+	```text
+	Initial public version
+	```

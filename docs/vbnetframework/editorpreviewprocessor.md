@@ -29,3 +29,11 @@ After all the images are processed, if the option is enabled, the source files a
 ## Requirements
 
 * .NET Framework 4.8
+
+## Changelog
+
+??? changelog "v1.0.0"
+
+	```text
+	Initial public version
+	```

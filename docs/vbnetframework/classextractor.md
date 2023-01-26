@@ -100,3 +100,17 @@ class ItemX;
 
 * .NET Framework 4.8
 * [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/)
+
+## Changelogs
+
+??? changelog "v1.0.1"
+
+	```text
+	Fixed:
+		- Export to clipboard would fail and crash the application if the clipboard was locked by another process
+	```
+??? changelog "v1.0.0"
+
+	```text
+	Initial public version
+	```

@@ -124,3 +124,11 @@ class CfgWorlds {
 ## Requirements
 
 * .NET Framework 4.8
+
+## Changelog
+
+??? changelog "v1.0.0"
+
+	```text
+	Initial public version
+	```

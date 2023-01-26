@@ -10,7 +10,7 @@ The .colorlib file is a special binary file format designed for the color librar
 
 ### Extension
 
-`.colorlib`
+* `.colorlib`
 
 ### Byte order
 
@@ -18,7 +18,7 @@ The .colorlib file is a special binary file format designed for the color librar
 
 ### Data types
 
-* `string`:			length prefixed string in UTF-8 encoding
+* `string`:			length prefixed string in UTF-8 encoding, the prefix contains the encoded length as a 7-bit encoded unsigned integer
 * `byte`:			8-bit unsigned integer
 * `uint16`:		16-bit unsigned integer
 * `uint32`:		32-bit unsigned integer
@@ -30,7 +30,7 @@ The .colorlib file is a special binary file format designed for the color librar
 // overall file
 ColorLibrary {
 	string			header signature			// always "MRC color library"
-	uint16			padding						// always 0
+	uint16			file version
 	string			LibraryName
 	uint16			padding						// always 0
 	

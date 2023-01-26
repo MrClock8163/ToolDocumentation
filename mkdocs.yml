@@ -20,6 +20,8 @@ markdown_extensions:
   - toc:
       permalink: ""
       baselevel: 1
+  - pymdownx.details
+  - pymdownx.superfences
 nav:
     - Home: 'index.md'
     - Python:

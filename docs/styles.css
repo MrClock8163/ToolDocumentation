@@ -231,3 +231,24 @@ div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(3) {
 .wy-menu-vertical li.toctree-l3.current>a, .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a {
     background: #3f3f46;
 }
+
+
+details {
+	/* border: 2px solid #c8c8c8; */
+	/* border-color: red; */
+	background: #1a1a1a;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin: 0px 0px 24px 0px;
+	/* border-width: 10px; */
+}
+
+details.changelog {
+	background: #3f3f46;
+	
+}
+
+summary {
+	font-weight: 700;
+	cursor: pointer;
+}

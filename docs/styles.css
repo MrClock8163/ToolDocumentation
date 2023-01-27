@@ -237,18 +237,34 @@ details {
 	/* border: 2px solid #c8c8c8; */
 	/* border-color: red; */
 	background: #1a1a1a;
-	padding: 10px 15px;
+	padding: 0px 15px 1px 15px;
 	border-radius: 5px;
 	margin: 0px 0px 24px 0px;
 	/* border-width: 10px; */
 }
 
+details:not([open]) {
+	padding: 0px 15px;
+}
+
 details.changelog {
+	background: #1a1a1a;
+}
+details.changelog>summary {
 	background: #3f3f46;
-	
 }
 
 summary {
+	margin: 0px -15px 24px -15px;
 	font-weight: 700;
 	cursor: pointer;
+	background: red;
+	padding: 10px;
+	border-radius: 5px 5px 0px 0px;
+	min-height: 20px;
+}
+
+details:not([open])>summary {
+    border-radius: 5px;
+	margin: 0px -15px;
 }

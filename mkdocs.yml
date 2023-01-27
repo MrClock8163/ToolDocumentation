@@ -21,7 +21,8 @@ markdown_extensions:
       permalink: ""
       baselevel: 1
   - pymdownx.details
-  - pymdownx.superfences
+  # - pymdownx.superfences
+  # - pymdownx.tabbed
 nav:
     - Home: 'index.md'
     - Python:

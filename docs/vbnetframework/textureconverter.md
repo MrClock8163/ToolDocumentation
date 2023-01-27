@@ -90,6 +90,5 @@ After the conversion, the successful files are displayed in green.
 
 ??? changelog "v1.2.1"
 
-	```text
 	Initial public version
-	```
+	

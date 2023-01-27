@@ -105,12 +105,10 @@ class ItemX;
 
 ??? changelog "v1.0.1"
 
-	```text
 	Fixed:
-		- Export to clipboard would fail and crash the application if the clipboard was locked by another process
-	```
+	
+	* Export to clipboard would fail and crash the application if the clipboard was locked by another process
+		
 ??? changelog "v1.0.0"
 
-	```text
 	Initial public version
-	```

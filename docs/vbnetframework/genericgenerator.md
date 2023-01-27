@@ -129,6 +129,5 @@ class CfgWorlds {
 
 ??? changelog "v1.0.0"
 
-	```text
 	Initial public version
-	```
+

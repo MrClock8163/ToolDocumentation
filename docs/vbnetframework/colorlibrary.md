@@ -93,33 +93,29 @@ If this setting is enabled, the library is saved (if possible) after every chang
 
 ??? changelog "v2.0.3"
 
-	```text
 	Fixed:
-		- Text input dialogs were resizing to unrealistic widths with long inputs
-		- Save color dialogs were resizing to unrealistic widths with long inputs
+	
+	* Text input dialogs were resizing to unrealistic widths with long inputs
+	* Save color dialogs were resizing to unrealistic widths with long inputs
 		
 	Changed:
-		- Simplified internal handling of color library files
-		- Color cards now adjust the title field height to allow longer color names to wrap
-	```
+	
+	* Simplified internal handling of `.colorlib` files
+	* Color cards now adjust the title field height to allow longer color names to wrap
 
 ??? changelog "v2.0.2"
 
-	```text
 	Fixed:
-		- Color code annotation on color cards was not culture invariant
-		- Color card to clipboard would fail and crash the application if the clipboard was locked by another process
-	```
+	
+	* Color code annotation on color cards was not culture invariant
+	* Color card to clipboard would fail and crash the application if the clipboard was locked by another process
 
 ??? changelog "v2.0.1"
 
-	```text
 	Fixed:
-		- Loading colors from the library was not culture invariant
-	```
+	
+	* Loading colors from the library was not culture invariant
 
 ??? changelog "v2.0.0"
 
-	```text
 	Initial public version
-	```

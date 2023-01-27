@@ -34,6 +34,4 @@ After all the images are processed, if the option is enabled, the source files a
 
 ??? changelog "v1.0.0"
 
-	```text
 	Initial public version
-	```

@@ -21,6 +21,7 @@ markdown_extensions:
       permalink: ""
       baselevel: 1
   - pymdownx.details
+  - pymdownx.smartsymbols
   # - pymdownx.superfences
   # - pymdownx.tabbed
 nav:

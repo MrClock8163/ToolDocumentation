@@ -13,7 +13,7 @@
 * Light and dark color theme
 
 The [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/) have a very similar application called [ImageToPAA](https://community.bistudio.com/wiki/ImageToPAA). While ImageToPAA is a solid program, it only supports conversion to PAA, and not **from** PAA.
-The Texture converter was mainly written to address this lack of feature. Otherwise it has a very similar interface and set of features. This version of the Texture converter tool is also a reimplementation of the previous iteration in a different framework, with the only notable frontend improvement being the inclusion of color themes.
+The Texture converter was mainly written to address this lack of feature. Otherwise it has a very similar interface and set of features. This version of the Texture converter tool is also a reimplementation of the previous iteration in a different framework, with the only notable front end improvement being the inclusion of color themes.
 
 ### Loading files
 
@@ -36,13 +36,13 @@ The loaded files are displayed in a list view with a set of informative fields:
 * **Type:** file extension
 * **Path:** full path to the file
 * **Size:** file size on disk
-* **Resolution:** texture resolution (resolution of the 1st mipmap in case of PAA)
+* **Resolution:** texture resolution (resolution of the 1st mipmap in case of PAX files)
 * **Suffix:** texture type indicator suffix (eg: `CO`, `CA`, `NOHQ` etc.)
 * **Estimate:** estimated time necessary for conversion
 
 !!! note
 
-	The estimated conversion time is based on the file size being divided by an approximate bytes/seconds conversion speed derived from tests during development, therefore it is only an informative value, the true time may differ.
+	The estimated conversion time is based on the file size being multiplied by an approximate seconds/byte conversion speed derived from tests during development, therefore it is only an informative value, the true time may differ.
 
 #### File validation
 
@@ -61,6 +61,29 @@ The converted files are either placed back into the source folder, or into a cus
 If a file could not be converted, an error message is added to the log.
 
 After the conversion, the successful files are displayed in green.
+
+### Calibration
+
+The estimated conversion times are calculated by multiplying the file size by an average seconds/byte conversion speed.
+The default values for this calculation are based on a series of test measurements on the development computer, but since those values are only true for that specific machine, an option was added to remeasure the speed, in order to tune the estimates to the performace of any computer.
+
+Since the PNG/TGA/JPG --> PAA conversion is slower than the PAA --> PNG, the application has two separate speed values stored.
+
+When the `... and calibrate` option is enabled, the conversion is forced to Progressive scheduling, and it cannot be stopped.
+
+During conversion the process times are recorded, and the seconds/byte value is calculated for each item in the queue. After the conversion is finished, the average of the values is taken.
+							
+If only PNG/TGA/JPG or PAA files are in the current queue, only the respective speed value is recalculated.
+
+!!! tip
+
+	Calibration can be run with any number of files in queue, but it is recommended to have at least 10. Ideally, the files should either:
+	
+	* vary in resolution, format, and color range (eg.: using only gray-scale textures is not ideal) --> better estimates for conversions in general, but worse estimates for specific types
+	
+	or:
+	
+	* all be similar --> more accurate estimates for conversion of those specific files types (eg.: if you only use PNG files, calibrate with only PNG files), but worse estimates for conversion of other types
 
 ## Preferences
 
@@ -87,6 +110,16 @@ After the conversion, the successful files are displayed in green.
 * [Arma 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/)
 
 ## Changelogs
+
+??? changelog "v1.3.0"
+
+	Added:
+	
+	* Process `and calibrate` option to remeasure the average conversion speed used to calculate time estimates
+	
+	Changed:
+	
+	* `Ignore naming convention` was renamed to `Ignore naming`, and now it suppresses invalid character warnings as well
 
 ??? changelog "v1.2.1"
 

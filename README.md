@@ -1,9 +1,5 @@
-Template for the Read the Docs tutorial
-=======================================
+# About this repository
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This repository is the source of the documentations written for MrClock's Arma 3 tools.
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+To view the built documentation, visit the [MrClock's documentations](https://mrcdocs.readthedocs.io/) site.

@@ -120,6 +120,7 @@ If only PNG/TGA/JPG or PAA files are in the current queue, only the respective s
 	Changed:
 	
 	* `Ignore naming convention` was renamed to `Ignore naming`, and now it suppresses invalid character warnings as well
+	* 8-bit grayscale pixel format was added to the list of valid pixel formats
 
 ??? changelog "v1.2.1"
 

@@ -42,5 +42,6 @@ The different tools are grouped by the environment they were written in.
 These include:
 
 * Python 3.8 with appJar UI library
+* Blender Python API
 * Visual Basic .Net 5.0 with Windows Forms UI
 * Visual Basic .Net Framework 4.8 with WPF UI

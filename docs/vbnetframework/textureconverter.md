@@ -79,7 +79,7 @@ If only PNG/TGA/JPG or PAA files are in the current queue, only the respective s
 
 	Calibration can be run with any number of files in queue, but it is recommended to have at least 10. Ideally, the files should either:
 	
-	* vary in resolution, format, and color range (eg.: using only gray-scale textures is not ideal) --> better estimates for conversions in general, but worse estimates for specific types
+	* vary in resolution, format, and color range (eg.: using only grayscale textures is not ideal) --> better estimates for conversions in general, but worse estimates for specific types
 	
 	or:
 	

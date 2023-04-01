@@ -29,6 +29,7 @@ nav:
     - Python:
         - 'python/colorconverter.md'
         - 'python/modelcfgeditor.md'
+        - 'python/obutilities.md'
     - Visual Basic .Net:
         - 'vbnet/colorconverter.md'
         - 'vbnet/colorlibrary.md'
